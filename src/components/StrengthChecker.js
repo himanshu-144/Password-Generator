@@ -3,7 +3,7 @@ import React from 'react'
 const StrengthChecker = ({password}) => {
 
     const passwordStrengthChecker =()=>{
-       const passwordLength = password;
+       const passwordLength = password.length;
       if(passwordLength<1){
         return "";
       }
